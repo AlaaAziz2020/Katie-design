@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family: 'candara';
+    overflow-x: hidden;
+}
+
+/*Start Banner*/
+.banner{
+    background: url('../images/test.jpg') center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+}
+
+.banner button{
+    border: 1px solid #000;
+    background-color:#fff;
+    color:#000;
+    height:3.1rem;
+    width:12rem;
+    background: #fff;
+   /* padding: 10px 25px;*/
+    margin:9px;
+    color: #000;
+    border: 1px solid #babcba;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+}
+
+.banner .other::before{
+    content: "";
+    display: block;
+    width:70px;
+    height:2px;
+    background-color: #000;
+    position:absolute;
+    left:-70px;
+    top:80%;
+    
+}
+.banner a.btn{ border:1px solid #000;background-color: #fff; color:#000}
+
+.banner a.btn:hover,
+.banner button:hover{background-color:#888;color:#fff}
+
+/*End  Banner*/
+/*Start feature2*/
+
+.features2 p{ padding-left:12rem}
+
+.features2  a.btn{background:gray;color: #fff;text-align: left;}
+
+.features2 a.btn:hover{color:gray;background-color: #fff;}
+
+@media screen and (max-width:780px){
+ 
+    .features2{text-align: center}
+
+    .features{padding-left:20rem}
+
+    .features h4{ margin-top:3rem;text-align: center;padding-right:30rem} 
+
+    .features-text { margin-top:3rem;text-align: center;padding-left:30rem; }
+
+    .features2 a{margin-left:2rem}
+}
+/*End feature2*/
+/*Start Learning*/
+.learning{  
+margin-top:30px; 
+ background:url('../images/test.jpg') center;
+ background-size: cover;
+ background-repeat:no-repeat;
+text-align:center;
+height:650px;
+padding-top:25px
+}
+.learning h3{color:#000}
+.learning h4{
+text-align: center;
+border:.5px solid #fff;
+color:#666;
+background-color: #fff;
+/*width:18.4em;*/
+width:15em;
+height:4rem;
+padding-top:10px;
+margin-left:40px
+}
+
+.learning h3:hover{color:#fff}
+
+.learning h4:hover{color: #fff;background-color: #666;}
+
+@media screen and (max-width:780px){
+    
+    .learning{height:100%;text-align: center; }
+    .learning .blog-info {padding-left:25vh}
+
+}
+
+/*End Learning*/
+
+/*Start Success*/
+.success{text-align: center; padding-bottom: 25PX; margin-top:30px; }
+
+.success h3{font-size:12px}
+
+.success p{font-size:17px;color:#888}
+
+.success h3:hover,
+.success p:hover{color:#666}
+
+@media screen and (max-width:780px){
+
+    .success{text-align: center; margin:20px }
+
+    .success p{text-align: center;}
+}
+/*End Success*/
+
+/*Start Brand*/
+.brand{
+    margin-top:30px; 
+    background:url('../images/test.jpg') center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding:35px;
+
+}
+
+.brand h3.tittle {
+    font-size: 2.2em;
+    line-height: 45px;
+}
+
+.brand .brand-right{padding-top:8rem}
+.brand .brand-right p {
+    font-size: 16px;
+    color: #666;
+    line-height: 3.8rem;
+}
+.brand-img{padding-left:20rem;padding-top:8rem}
+
+.brand a.btn,
+.learning a.btn {
+    background: #fff;
+    padding: 10px 25px;
+    margin:12px;
+    color: #000;
+    border: 2px solid #babcba;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+}
+ h1:hover,
+ h2:hover,
+ h3:hover,
+ h4:hover,
+p:hover{color:#999}
+.brand a.btn:hover,
+.learning a.btn:hover{background-color:#666;color:#fafafa}
+@media screen and (max-width:780px){
+    .brand{margin-top:70px}
+    .brand-right{text-align: center;}
+}
+
+/*End Brand*/
+
+/*Start footer*/
+.copyright {text-align: center;background-color: #333;color:#fff;height:50px}
+.copyright p{margin-top:13px}
+@media screen and (max-width:780px){
+    .copyright{text-align:center;padding-left:7rem }
+}
+ /*End footer*/
