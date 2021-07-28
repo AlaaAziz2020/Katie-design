@@ -6,28 +6,66 @@
         <title>katie Template</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-          <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+      <!-- 
+        You should make a menu bar like this
+        1 -
+        CHECK OUT the link to learn how is going
+        >> for menu bar
+        https://www.youtube.com/watch?v=FhjyRg-LYKc&t=44s
+        
+        2-
+        you should make in footer section social links 
+        >> facebook >> linkedin >> twitter >> whats app
+
+        3- you should remove hover from text 
+        we just use hover for "button"
+      
+        after that you will push again on githup and make accees
+
+        "by the way you doing good keep it up"
+        thanks 
+      -->
+
     <!-- /.container-fluid -->
             <div class="banner">
               <div class="container">
                 <div class="row">             
-                  <div class="col-md-6 banner-left ">
-                     <a class="navbar-brand" style="color:#777;display:block;font-size: 5rem;"  href="#">KATIE<span style="font-size: 8rem;">O</span>SELVIDGE</a>
-                   
-                      <h3 style="display:block;padding-top:100px;line-height: 4rem;">It's time to simplify your creative business and<br> make real
+                  <div class="col-md-6 banner-left " style="margin-top: 70px; margin-left: 40px;">
+                    <!--------------Navbar----------------------->
+                  <nav>
+                     <input id="nav-toggle" type="checkbox">
+                       <div class="logo">KATIE<span style="font-size: 12vh;">O</span>SELVIDGE</div>
+                         <ul class="links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="login-sign/index.html">Login</a></li>
+                            <li><a href="login-sign/sign.html">Sign</a></li>
+
+                        </ul>
+                       <label for="nav-toggle" class="icon-burger">
+                          <div class="line"></div>
+                          <div class="line"></div>
+                          <div class="line"></div>
+                      </label>
+                  </nav>                    
+                      <h3 style="display:block;line-height: 4rem;">It's time to simplify your creative business and<br> make real
                       money <span id="dots">to improve your life and skills<br></span> so you can move on to greater things<br>
                       </h3>
                       <h3 class="other">in work and life </h3>
                        <button onclick="myFunction()" id="myBtn">READ MORE</button>
-                        <a class="btn"><i class="fa fa-youtube "></i>WATCH FREE CREATIVE MONEY SERIES</a>
+                        <a class="btn">WATCH FREE CREATIVE MONEY SERIES</a>
                     </div>
                   </div>
                </div>
           </div>
           <!----------------End Banner------------------>
+         <!---------------Start features----------------->
+
           <section class="features" >
             <div class="container">
                 <div class="row ">
@@ -35,8 +73,9 @@
                         <img src="./images/pexels-pixabay-355063.jpg" onmouseover="this.src='./images/pexels-engin-akyurt-3065209.jpg'" onmouseout="this.src='./images/pexels-pixabay-355063.jpg'" class="img-responsive" style="margin-top:-80px;transform: translateY(20px);" alt="">
                     </div>
                     <div class="col-lg-8 features-text " style="font-size:20px;padding:5px;text-align:center;line-height:5rem">
-                        <h4 class="title ">HI,I'M KATIE</h4>
-                        <h1 style="color:#777; line-height: 4rem;"></h1>FOUNDER OF COTTAGE HILL <br>
+                        <h1 class="title">HI,I'M KATIE</h1>
+                        <h1 style="color:#777; margin-top: 20px;">
+                          FOUNDER OF COTTAGE HILL <br>
                            & BUSINESS EDITOR TO<br>
                             DISCERNING CREATIVES
                         </h1>
@@ -45,69 +84,75 @@
             </div>
         </section>
         <!---------------Start features2----------------->
-        <section class="features2" style="margin-top:80px;">
+        <section class="features2" style="margin-top:80px; margin-bottom: 80px;">
           <div class="container">
              <div class="row">
                 <div class=" col-md-6 ">
-                  <p class="right-side"  style="padding:10px 0px 20px ">
-                   <span>We have a serious problem.</span>Creative encceprenceutrs are not living <br>
-                   the life they imagined. It scatted as a dream to make real money<br>
+                  <p class="right-side"  style="padding:10px 0px 20px; color: #222; font-size: 20px;">
+                   We have a serious problem. Creative encceprenceutrs are not living <br>
+                   the life they imagined. It<br> scatted as a dream to make real money<br>
                    doing what you love or to create your own schedule so you can<br>
                    have more time for your family, or maybe even to pursue a bigger<br>
-                   creative goal, right?. Now, it has become an overwhelming,<br>
-                   confusing up-hill daily battle leading to burn out, boredom or <br>
-                   perhaps broken spirit.<span>Do you feel it?</span>
+                   perhaps broken spirit.<span style="color: blueviolet;"> Do you feel it?</span>
                    </p>
+                   <div>
+                    <a href="#" class="btn">LEARN MORE</a>
+                 </div>
+                 <hr>
+
                 </div>
-                <div class=" col-lg-6 ">
-                  <p class="left-side"style="padding:10px 0px 20px ">
-                   But, here's the things. You don't have to keep going that direction.<br>
-                   <span>You can go your own way,</span> No more through-the-night. work<br>
-                   using your health and time with family. I'm here to show you<br>
-                   how it is possible. As a Business Editor. I can help you edit and<br>
-                   reflect your business to fit the life you desire, not the other way<br>
-                   around. So it's not about doing more, and it's not about doing less.<br>
-                   <span>Its about doing Well.</span>
-                  </p>
-                </div>
-                <div>
-                   <a href="#" class="btn">LEARN MORE</a>
+                <div class=" col-md-6 ">
+                  <p class="right-side"  style="padding:10px 0px 20px; color: #222; font-size: 20px;">
+                   We have a serious problem. Creative encceprenceutrs are not living <br>
+                   the life they imagined. It scatted as a dream to make real money<br>
+                   doing what you love or to create <br> your own schedule so you can
+                   have more time for your family, or maybe even to pursue a bigger<br>
+                   perhaps broken spirit.<span style="color: blueviolet;"> Do you feel it?</span>
+                   </p>
+                   <div>
+                    <a href="#" class="btn">LEARN MORE</a>
+                 </div>
+                 <hr>
+
                 </div>
             </div>
           </div>
         </section>
+        <br>
         <!---------------End features2----------------->
         <!--------------Start Learning----------------->
-        <div class="learning">
+        <div class="learning" style="height: 100vh;">
           <section id="grids5-block ">
               <div class="container ">
                   <h3 class="title " style="margin-bottom:35px">CONNECT & LEARN</h3>
                   <div class="row ">
                       <div class="col-lg-4 col-md-6">
                           <div class="grids5-info " >
-                              <a href="#" class="d-block zoom "><img src="./images/speak.jpg" onmouseover="this.src='./images/pexels-karolina-grabowska-4491461 (2).jpg'" onmouseout="this.src='./images/speak.jpg'" alt="" class="img-fluid"></a>
+                              <a href="#" class="d-block zoom "><img src="./images/speak.jpg" onmouseover="this.src='./images/pexels-karolina-grabowska-4491461 (2).jpg'" onmouseout="this.src='./images/speak.jpg'" alt="" class="img-fluid" style="border-radius: 6px;"></a>
                               <div class="blog-info ">
-                                  <h4>SPEAKING</h4>
+                                <p style="font-size: 20xp; margin-top: 10px; color: #222;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia expedita voluptatem ea corrupti vitae?</p>
+                                <a href="#" class="btn">Speaking</a>
                               </div>
                           </div>
                       </div>
                       <div class="col-lg-4 col-md-6">
                           <div class="grids5-info">
-                              <a href="#" class="d-block zoom"><img src="./images/shop.jpg" onmousemove="this.src='./images/pexels-sarah-chai-7262899.jpg'" onmouseout="this.src='./images/shop.jpg'" alt="" class="img-fluid"></a>
+                              <a href="#" class="d-block zoom"><img src="./images/shop.jpg" onmousemove="this.src='./images/pexels-sarah-chai-7262899.jpg'" onmouseout="this.src='./images/shop.jpg'" alt="" class="img-fluid" style="border-radius: 6px;"></a>
                               <div class="blog-info ">
-                                  <h4>SHOP RESOURCES</h4>
+                                <p style="font-size: 20xp; margin-top: 10px; color: #222;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia expedita voluptatem ea corrupti vitae?</p>
+                                <a href="#" class="btn">Shop Resourse</a>
                               </div>
                           </div>
                       </div>
                       <div class="col-lg-4 col-md-6 ">
                           <div class="grids5-info " style="padding-bottom: 35px;">
-                              <a href="#" class="d-block zoom"><img src="./images/courses.jpg"  onmousemove="this.src='./images/pexels-katerina-holmes-5905923.jpg'" onmouseout="this.src='./images/courses.jpg'" alt="" class="img-fluid"></a>
+                              <a href="#" class="d-block zoom"><img src="./images/courses.jpg"  onmousemove="this.src='./images/pexels-katerina-holmes-5905923.jpg'" onmouseout="this.src='./images/courses.jpg'" alt="" class="img-fluid" style="border-radius: 6px;"></a>
                               <div class="blog-info ">
-                                  <h4>COURSES</h4>
+                                <p style="font-size: 20xp; margin-top: 10px; color: #222;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia expedita voluptatem ea corrupti vitae?</p>
+                                <a href="#" class="btn">Courses</a>
                               </div>
                           </div>
                       </div>
-                      <a href="#" class="btn">LEARN MORE</a>
                     </div>
               </div>
           </section>
@@ -120,19 +165,19 @@
             <div class="client">
               <div class="row">
                 <div class="col-md-12 ">
-                  <h3>CLIENT SUCCESS STORY</h3>
-                  <P>"Karie is the perfect coach. She's encouraging, experienced, relatable,<br>
+                  <h3 style="font-size: 20px;">CLIENT SUCCESS STORY</h3>
+                  <P style="font-size: 20px;">"Karie is the perfect coach. She's encouraging, experienced, relatable,<br>
                      and insightful"
                   </P>
-                </div>
-                <div class="photograph">
-                     <img src="./images/pexels-cottonbro-3584951.jpg" onmousemove="this.src='./images/pexels-andrea-piacquadio-814822.jpg'" onmouseout="this.src='./images/pexels-cottonbro-3584951.jpg'" alt="" class="img-fluid"></a>
+                  <div class="photograph">
+                    <img src="./images/pexels-cottonbro-3584951.jpg" onmousemove="this.src='./images/pexels-andrea-piacquadio-814822.jpg'" onmouseout="this.src='./images/pexels-cottonbro-3584951.jpg'" alt="" class="img-fluid">
+                  
+                  </div>
                 </div>
                </div>
              </div>
           </div>
         </div>
-      </div>
 
       <!---------------End Success-------------------------------------->
       <!-------------------brand------------------------------------------->
@@ -141,35 +186,41 @@
           <div class="types ">
             <div class="row">
               <div class="col-md-6 brand-right ">
-                <h3 class="tittle">CREATE A LIFE<br>
-                                  MORE BEAUTIFUL<br>
-                                  THAN YOUR BRAND
+                <h3 class="tittle">
+                  CREATE A LIFE MORE BEAUTIFUL THAN YOUR BRAND
                 </h3>
-                <p>I'm a designer ballerin and chorcographer turned magazine<br>
-                  publisher and now Business Editor for discerning creatives.I'm<br>
-                  also a wife, mother and rancher. I know finished what it's like<br>
-                  to create both & successful product-based and service-based <br>
-                  business. My mission to help you finf your voice, achieve your <br>
+                <p style="font-size: 20px;">I'm a designer ballerin and chorcographer turned magazine
+                  publisher and now Business Editor for discerning creatives.I'm
+                  <br>
+                  <br>
+                  business. My mission to help you finf your voice, achieve your 
                   definition of success and live the life you always imagined.
                 </p>
                 <a href="#" class="btn">LEARN MORE</a>
               </div>
               <div class="col-md-6 brand-img ">
-             <!----   <img src="./images/pexels-roman-odintsov-6022992.jpg" alt="" class="img-fluid">-->
-                <img src="./images/pexels-jonathan-borba-3292699.jpg" onmouseover="this.src='./images/pexels-koolshooters-6976942.jpg'" onmouseout="this.src='./images/pexels-jonathan-borba-3292699.jpg'" alt="" class="img-fluid">
+                <img src="./images/pexels-jonathan-borba-3292699.jpg" style="border-radius: 6px;" class="img-fluid">
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-------------------brand------------------------------------------->
-      <!--------------------footer----------------------------------------->
-      <div class="copyright">
-        <div class="container">
-            <p>© 2017 Events Venue. All rights reserved | Design by web design</p>
+      <!----------------Footer--------------------->
+      <div class="footer">
+        <div class="details">
+          <p>© 2021 Nature. All rights reserved | Design by <a href="#">Alaa Aziz</a></p>
+        </div>
+        <div class="icons">
+          <ul>
+            <li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="icon tw" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="icon linkIn" href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="icon wh" href="#"><i class="fa fa-whatsapp"></i></a></li>
+          </ul>
         </div>
       </div>
-      <!--------------------footer----------------------------------------->
+      <!----------------Footer--------------------->
        
         <script src="js/katie.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
